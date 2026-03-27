@@ -2,7 +2,7 @@
 
 [![License][shield-license]][github-license]
 
-Boilerplate workplace files for the agents.
+Boilerplate files for the agents.
 
 ## License
 
