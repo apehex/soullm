@@ -19,7 +19,7 @@ Overview of the repository structure.
 
 | Path                      | Purpose                               |
 | ------------------------- | ------------------------------------- |
-| `-- docs/`                | Record of the progress and issues     |
+| `-- logs/`                | Record of the progress and issues     |
 
 ## Sources
 
