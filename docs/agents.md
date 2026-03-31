@@ -4,12 +4,14 @@ Guidelines for LLM agents working on this repository.
 
 ## General Principles
 
-- prioritize clarity over novelty
+- prioritize clarity over ingenuity
 - keep implementations focused
-- document reasoning for structural changes
-- avoid unnecessary abstractions
+- make as few assumption as possible
 - state all the assumptions explicitely
 - prefer plain ASCII characters
+- prefer "showing" over "telling":
+    - "showing": coding, drafting, planning, running, generally "doing"
+    - "telling": describing, lecturing, "talking" with no direct effect
 
 ---
 
@@ -26,7 +28,7 @@ Guidelines for LLM agents working on this repository.
 ## Working Rules
 
 - track the planning and objectives in `docs/roadmap.md`
-- record the progress and issues in `.logs/`
+- record the progress and issues in `logs/`
 - split work into incremental and focused commits
 - read existing code and tests before editing
 - avoid broad refactors unless required
@@ -39,6 +41,9 @@ Guidelines for LLM agents working on this repository.
 - preserve structure unless necessary
 - handle edge cases and failure modes
 - prefer explicit behavior over implicit magic
+- avoid side effects and hidden variables
+- avoid case specific implementations
+- prefer functional over object oriented programmation
 
 ---
 
@@ -46,7 +51,8 @@ Guidelines for LLM agents working on this repository.
 
 - keep the docs aligned with the implementation
 - update `docs/context.md` when assumptions change
-- update `docs/decisions.md` when making architectural choices
+- update `docs/decisions.md` when making strategic choices
+- update `docs/roadmap.md` when planning future steps
 
 ---
 
