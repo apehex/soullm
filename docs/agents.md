@@ -4,6 +4,8 @@ Guidelines for LLM agents working on this repository.
 
 ## General Principles
 
+> make things as complex as necessary, as simple as possible
+
 - prioritize clarity over ingenuity
 - keep implementations focused
 - make as few assumption as possible
